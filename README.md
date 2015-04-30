@@ -20,7 +20,7 @@ A very tiny library that allows define position for `NSStatusBarItem` inside `NS
 NSStatusBar+MISSINGOrder is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
-    pod "NSStatusBar+MISSINGOrder"
+    pod "NSStatusBar-MISSINGOrder"
 
 ## Author
 

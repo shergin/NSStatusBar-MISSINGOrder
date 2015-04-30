@@ -16,7 +16,7 @@ typedef NS_ENUM(NSInteger, NSStatusBarItemPriority) {
 };
 
 typedef NS_ENUM(NSInteger, NSStatusBarItemOrderingMode) {
-	NSStatusBarItemOrderingModeBefore = 1,
+	NSStatusBarItemOrderingModeBefore = -1,
 	NSStatusBarItemOrderingModeAfter = 0,
 };
 
