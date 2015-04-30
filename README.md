@@ -11,7 +11,10 @@ A very tiny library that allows define position for `NSStatusBarItem` inside `NS
     #import "NSStatusBar+MISSINGOrder.h"
 
     // Let's create new status item at the end of menu bar!
-    NSStatusItem *statusItem = [systemStatusBar statusItemWithLength:NSVariableStatusItemLength positioned:NSStatusBarItemOrderingModeBefore relativeTo:NSStatusBarItemPriorityNotificationCenter];
+    NSStatusItem *statusItem =
+        [systemStatusBar statusItemWithLength:NSVariableStatusItemLength
+                                   positioned:NSStatusBarItemOrderingModeBefore
+                                   relativeTo:NSStatusBarItemPriorityNotificationCenter];
 
     // Voilà!
 
