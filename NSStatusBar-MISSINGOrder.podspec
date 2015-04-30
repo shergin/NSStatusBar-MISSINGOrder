@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "NSStatusBar-MISSINGOrder"
-  s.version = "1.1.0"
+  s.version = "1.2.0"
   s.summary = "A very tiny library that allows define position for `NSStatusBarItem` inside `NSStatusBar`."
   s.homepage = "https://github.com/shergin/NSImage-MISSINGTint"
   s.license = 'MIT'
